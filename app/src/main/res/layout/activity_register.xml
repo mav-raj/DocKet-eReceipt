@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true"
+    tools:context="com.solution.engineering.docket_ereceipt.RegisterActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_logo"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#F7F7F7"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/register_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_text"
+        android:hint="@string/hint_name"
+        android:inputType="text" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:hintEnabled="false"
+        app:errorEnabled="false">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edit_text"
+        android:id="@+id/register_et_email"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:hintEnabled="false"
+        app:errorEnabled="false">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/edit_text"
+            android:id="@+id/register_et_password"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:hintEnabled="false"
+
+        app:errorEnabled="false">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/edit_text"
+            android:id="@+id/register_et_confirm_password"
+            android:hint="@string/hint_cnf_password"
+            android:inputType="textPassword"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button_style"
+        android:id="@+id/register_btn_create_account"
+        android:text="@string/button_create_account"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_tv_signin"
+        android:layout_gravity="center"
+        android:text="@string/register_activity_tv"
+        android:textSize="16sp"
+        android:textColor="#F7F7F7"
+        android:padding="6dp"
+        />
+</LinearLayout>

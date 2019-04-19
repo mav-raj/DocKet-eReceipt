@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DocKet-eReceipt</string>
+    <string name="email_hint">example@abc.com</string>
+    <string name="pass_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="signup_text">Not Registered? SIGN UP.</string>
+    <string name="login_logo">LL</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_cnf_password">Confirm Password</string>
+    <string name="login_activity_tv">New User? Register Here.</string>
+    <string name="register_activity_tv">Already have an account? LOG IN.</string>
+    <string name="forgot_pass_text">Forgot Password?</string>
+    <string name="hint_email">example@abc.com</string>
+    <string name="hint_phone">Phone</string>
+    <string name="button_sign_out">Sign Out</string>
+    <string name="button_create_account">Create Account</string>
+    <string name="for_text">Enter Your Registered Email Here</string>
+    <string name="for_btn_text">RESET</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="title_activity_qr_scan">qrScanActivity</string>
+    <string name="about_us">Receipts. Some people keep them in their wallets. Some people keep them in their folders in order to access them in the future. Most people are frustrated with keeping them organized, since such pieces of paper are hard to keep track of. It gets worse when you are looking for this one particular receipt as you go through piles of paper receipts. These paper receipts are messy, they are a hassle to deal with and they make it difficult to keep track of your expenses. Many of times the texts fade away with time leaving us with blank pieces of paper. Paper receipts often get lost or misplaced, and consumers are constantly trying to find easy ways to save and handle receipts. There has been a flurry of recent developments on the transition from paper receipts to digital ones. Many of these have to do with innovation at point of sale (POS) counters to capture, manage and store digital receipts. The former approaches often lacked the immediacy and personal authentication desired from the user end.
+DocKet is a technology that we propose here to address this issue. Using this technology, it is possible to instantly authenticate the transfer of digital receipts, bind them to the user and also get into the handy Smartphone for browsing. From now on, you can opt to have the store send your receipt to your DocKet app, which keeps all your electronic receipts organized. You can search by date, by store, by amount or any other information for easy retrieval whenever you need a particular receipt. It will be easy and amazingly convenient. Docket will also gives you a summary of your expenses which makes it so much easier to monitor your total spending, regardless of whether you pay in cash or which debit/credit card you use.
+</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

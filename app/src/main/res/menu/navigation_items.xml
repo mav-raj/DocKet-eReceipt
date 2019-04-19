@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+    <item android:id="@+id/nav_about"
+        android:icon="@mipmap/about_icon"
+        android:title="About"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:id="@+id/nav_settings"
+            android:icon="@mipmap/app_settings"
+            android:title="App Settings"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3"><item android:id="@+id/nav_edit_profile"
+        android:title="Profile Settings"
+        android:icon="@mipmap/profile_settings"
+        /></group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group4">
+        <item android:id="@+id/nav_logout"
+            android:icon="@mipmap/log_out"
+            android:title="Log Out"/>
+    </group>
+
+
+</menu>

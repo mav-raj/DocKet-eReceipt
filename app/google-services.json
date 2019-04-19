@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "599575967053",
+    "firebase_url": "https://docket-ereceipt.firebaseio.com",
+    "project_id": "docket-ereceipt",
+    "storage_bucket": "docket-ereceipt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599575967053:android:d76eeb5d359b43cb",
+        "android_client_info": {
+          "package_name": "com.solution.engineering.docket_ereceipt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599575967053-h14pkr6ivndbks5gc02obrcoc42ocdrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solution.engineering.docket_ereceipt",
+            "certificate_hash": "366244d65202e11db107620ea0a1bd78942f74fb"
+          }
+        },
+        {
+          "client_id": "599575967053-172pcb7lv6jfi8gaefmll9bg6r7tvb6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2yzrnbXYbBWY0mQG7dbn1JORf2I7vefk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599575967053-172pcb7lv6jfi8gaefmll9bg6r7tvb6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

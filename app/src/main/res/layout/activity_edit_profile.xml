@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.solution.engineering.docket_ereceipt.EditProfileActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Edit Profile">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appbar"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/edit_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/header_image"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp"/>
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:text="Change Profile Image"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#bab9b9"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:layout_marginBottom="15dp"-->
+            <!---->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:text="Change Profile Name"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:textColor="#bab9b9"-->
+            <!--android:textAllCaps="true"-->
+            <!---->
+            <!--android:layout_marginBottom="-5dp"-->
+            <!--/>-->
+        <EditText
+            android:background= "@drawable/edit_text_background"
+            style="@style/edit_text"
+            android:inputType="text"
+            android:id="@+id/edit_name"
+            android:hint="Name"
+            android:textColor="#FF2B2B2B"/>
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:text="Change Profile Password"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:textColor="#bab9b9"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:layout_marginBottom="-5dp"-->
+            <!--/>-->
+        <TextView
+            style="@style/edit_text"
+            android:text="Change Password"
+            android:textColor="#393E46"
+            android:gravity="center"
+            android:id="@+id/edit_password"
+            android:textAllCaps="true"
+            />
+
+        <Button
+            style="@style/button_style"
+            android:text="Confirm Edit"
+            android:gravity="center"
+            android:id="@+id/confirm_edit_button"
+            android:textAllCaps="true"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
